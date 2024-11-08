@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header {
+    background-color: #3182ce; /* Blue background */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #edf2f7; /* Light gray on hover */
+}
+
+/* Hero Section */
+section.bg-blue-600 {
+    background-color: #3182ce;
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+section.bg-blue-600 h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+section.bg-blue-600 p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+section.bg-blue-600 button {
+    background-color: #fbbf24; /* Yellow */
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.375rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section.bg-blue-600 button:hover {
+    background-color: #fcd34d; /* Light yellow on hover */
+}
+
+/* About Section */
+section#about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+section#about h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section#about .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section#about .flex.md\:flex-row {
+    flex-direction: row;
+    gap: 3rem;
+}
+
+section#about img {
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+section#about p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5
+}
